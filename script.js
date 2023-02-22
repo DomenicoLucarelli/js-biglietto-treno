@@ -23,13 +23,13 @@ if(eta<18){
 
 }else if(eta>65){
 
-                let prezzoFinale = ( prezzoNonScontato - (prezzoNonScontato * 40 / 100 ) )
-                document.writeln("Il costo del biglietto è " + prezzoFinale.toFixed(2) + " €")
+     let prezzoFinale = ( prezzoNonScontato - (prezzoNonScontato * 40 / 100 ) )
+    document.writeln("Il costo del biglietto è " + prezzoFinale.toFixed(2) + " €")
 
 
-                }else{
+}else{
 
-                document.writeln("Il costo del biglietto è " + prezzoNonScontato.toFixed(2) + " €" )
+    document.writeln("Il costo del biglietto è " + prezzoNonScontato.toFixed(2) + " €" )
 
-                }
+}
 
